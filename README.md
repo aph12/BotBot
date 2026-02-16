@@ -1,17 +1,17 @@
-# RLBotPythonExample
-Example of a Python bot using the RLBot framework
+# Rocket League Bot
 
-## Quick Start
-The easiest way to start a Python bot is demonstrated here!
-https://youtu.be/YJ69QZ-EX7k
+Python-based Rocket League bot built using the RLBot framework with a rule-based decision system for automated gameplay.
 
-It shows you how to:
-- Install the RLBot GUI
-- Use it to create a new bot
+## Features
+• Rule-based decision engine for gameplay actions  
+• Boost collection and resource management logic  
+• Goal positioning and defensive rotation behavior  
+• Ball alignment detection and shot execution  
+• Vector-based steering and movement  
+• Unit tests for decision logic and helper methods  
 
-## Changing the bot
+## Technologies
+Python, RLBot Framework, Object-Oriented Programming, Unit Testing, Vector Mathematics  
 
-- Bot behavior is controlled by `src/bot.py`
-- Bot appearance is controlled by `src/appearance.cfg`
-
-See https://github.com/RLBot/RLBotPythonExample/wiki for documentation and tutorials.
+## Overview
+This project was developed as part of CS5001 coursework and focuses on building a game-playing bot capable of making real-time decisions based on in-game conditions. The bot evaluates boost levels, positioning, and ball alignment to determine actions such as collecting boost, rotating to goal, repositioning, or charging toward the ball.
